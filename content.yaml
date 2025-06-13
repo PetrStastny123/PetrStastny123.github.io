@@ -1,0 +1,16 @@
+about: |
+  TODO – stručný profesní popis (2–3 věty).
+
+experience:
+  - role: TODO
+    company: TODO
+    years: "YYYY – YYYY"
+    desc: TODO – 1 věta popisu.
+
+education:
+  - degree: TODO
+    school: TODO
+    years: "YYYY – YYYY"
+
+hobbies: |
+  TODO – 1–2 koníčky. 
