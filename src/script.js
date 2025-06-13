@@ -1,1 +1,1 @@
-// File intentionally left empty 
+// Prázdný soubor - není potřeba 
