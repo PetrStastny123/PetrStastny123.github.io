@@ -66,6 +66,8 @@ nav ul li a:hover {
 /* Sections */
 .section {
   margin-bottom: 40px;
+  opacity: 1; /* Ensure visibility */
+  transform: translateY(0); /* Start at final position */
   animation: fadeIn 1s ease-out;
 }
 

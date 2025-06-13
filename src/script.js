@@ -3,6 +3,12 @@ document.addEventListener('DOMContentLoaded', function() {
   // Get all sections
   const sections = document.querySelectorAll('.section');
   
+  // Make sure all sections are visible initially
+  sections.forEach(section => {
+    section.style.opacity = '1';
+    section.style.transform = 'translateY(0)';
+  });
+  
   // Function to check if element is in viewport
   function isInViewport(element) {
     const rect = element.getBoundingClientRect();
@@ -26,7 +32,4 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Listen for scroll events
   window.addEventListener('scroll', handleScroll);
-  
-  // Initial check
-  handleScroll();
 }); 

@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Petr Šťastný - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Override any animation that might cause invisibility */
+        body, nav, .container, .section, h1, h2, p {
+            opacity: 1 !important;
+            visibility: visible !important;
+            display: block !important;
+        }
+        .section {
+            transform: none !important;
+            animation: none !important;
+        }
+    </style>
 </head>
 <body>
     <nav>

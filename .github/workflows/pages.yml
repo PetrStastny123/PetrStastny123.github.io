@@ -20,10 +20,16 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v3
       
+      - name: List files before copy
+        run: ls -la src/
+      
       - name: Build
         run: |
           mkdir -p dist
-          cp -r src/* dist/
+          cp -rv src/* dist/
+      
+      - name: List files after copy
+        run: ls -la dist/
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
